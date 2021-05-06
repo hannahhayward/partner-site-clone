@@ -1,3 +1,32 @@
+body{
+  font-family: 'Farro', sans-serif;
+}
+
+.john-deere-nav{
+  box-shadow: 0.25px 0px 0.5px 0.25px #4d4949;
+}
+
+.together-bg{
+  background-image: url(https://www.deere.com/assets/images/common/home-page/nogoingback-1366x347.jpg);
+  background-repeat: repeat-x;
+}
+
+.footer-bg{
+  background-color: #E5E6E6;
+}
+
+header, main, footer{
+  background-color: white;
+}
+
+.card{
+  min-width: 135px;
+}
+
+.max-width{
+  max-width: 1300px;
+}
+
 :root {
   --theme-black: #333333;
   --theme-green: #367c2b;
@@ -44,4 +73,12 @@
 }
 .btn-font-ylw-no-otln{
   color:#f3da01;
+}
+
+@media screen and (min-width:1100px){
+  body{
+    background-color: #D5D5D5;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
