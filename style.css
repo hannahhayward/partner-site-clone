@@ -1,0 +1,47 @@
+:root {
+  --theme-black: #333333;
+  --theme-green: #367c2b;
+}
+/* *{
+  outline: solid .5rem red;
+} */
+.fix-picture{
+  object-fit: cover;
+}
+.background-image{
+  background: url(https://www.deere.com/assets/images/common/home-page/may-homepage-jdstore.jpg);
+}
+.scnd-bg-img{
+  background: url(https://www.deere.com/assets/images/common/home-page/ag-march-5m-teaser-632x384.jpg);
+}
+.thrd-bg-img{
+  background: url(https://www.deere.com/assets/images/common/home-page/350g-lc-sg-632x384.jpg);
+}
+.frth-bg-img{
+  background: url(https://www.deere.com/assets/images/common/home-page/768l-ii-skidder.jpg);
+}
+.fth-bg-img{
+  background: url(https://www.deere.com/assets/images/common/home-page/deere-season-march-632x384.jpg);
+}
+.sxth-bg-img{
+  background: url(https://www.deere.com/assets/images/common/home-page/buyonline3-nmb.jpg);
+}
+.bg-theme-black{
+  background-color: var(--theme-black);
+}
+.first-card-img-top{
+  background: url(//placeholder.it/100x100);
+}
+.bg-card-gray{
+  background-color: #f4f3f3;
+}
+.btn-bg{
+  background-color: var(--theme-green);
+}
+.btn-font-ylw{
+  color: #f3da01;
+  border: solid .25rem #f3da01;
+}
+.btn-font-ylw-no-otln{
+  color:#f3da01;
+}
